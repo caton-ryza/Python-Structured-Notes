@@ -1,5 +1,4 @@
 
-
 # Python Modules
 
 ## Introduction
@@ -15,7 +14,6 @@ This documentation covers four built-in Python modules, their purposes, importan
 | 1 | `tkinter` | Creating graphical user interfaces |
 | 2 | `datetime` | Working with dates and time |
 | 3 | `json` | Storing and retrieving data |
-| 4 | `os` | Managing files and directories |
 
 ---
 
@@ -294,84 +292,6 @@ Alex
 
 ---
 
-# 4. OS Module
-
-## Overview
-
-`os` is a built-in Python module that allows programs to interact with the operating system. It provides functions for managing files and folders, checking file paths, creating directories, and accessing information about the computer's environment.
-
-It is useful when developing applications that need to organize or locate files automatically.
-
-## Common Functions
-
-| Function | Description |
-|---|---|
-| `os.path.exists()` | Checks whether a file or directory exists. |
-| `os.makedirs()` | Creates a directory, including parent directories when needed. |
-| `os.getcwd()` | Returns the current working directory. |
-| `os.path.join()` | Combines folder and file names into a valid path. |
-| `os.listdir()` | Lists the contents of a directory. |
-
-## Code Examples
-
-### Example 1: Checking if a File Exists
-
-```python
-import os
-
-if os.path.exists("student.json"):
-    print("File found!")
-else:
-    print("File not found.")
-```
-
-**Explanation:**
-
-- `os.path.exists()` checks the specified file path.
-- The `if` statement determines which message should be displayed.
-- If the file exists, the program displays "File found!"
-- Otherwise, it displays "File not found."
-
-**Expected Output:** The message depends on whether the file exists.
-
-### Example 2: Creating a Folder
-
-```python
-import os
-
-os.makedirs("student_files", exist_ok=True)
-
-print("Folder created successfully!")
-```
-
-**Explanation:**
-
-- `os.makedirs()` creates the specified directory.
-- `exist_ok=True` prevents an error if the folder already exists.
-- `print()` displays a confirmation message.
-
-**Expected Output:** A folder named `student_files` is created if it does not already exist.
-
-### Example 3: Getting the Current Working Directory
-
-```python
-import os
-
-location = os.getcwd()
-
-print(location)
-```
-
-**Explanation:**
-
-- `os.getcwd()` retrieves the directory where the program is currently running.
-- The result is stored in `location`.
-- `print()` displays the directory path.
-
-**Expected Output:** A file path showing the current working directory, such as `C:\Users\User\Documents`.
-
----
-
 # Conclusion
 
 Python modules make programming more organized and efficient by providing reusable tools for different tasks. Instead of writing every feature from scratch, programmers can import modules that already contain useful functions and components.
@@ -381,7 +301,6 @@ The four modules discussed in this documentation demonstrate different areas of 
 - `tkinter` is used to create graphical interfaces.
 - `datetime` is used to manage dates and time.
 - `json` is used to store and retrieve structured information.
-- `os` is used to manage files and directories.
 
 Understanding these modules helps programmers develop applications that are more functional, organized, and easier to maintain.
 
@@ -392,4 +311,3 @@ Understanding these modules helps programmers develop applications that are more
 - [Python Documentation – Tkinter](https://docs.python.org/3/library/tkinter.html)
 - [Python Documentation – Datetime](https://docs.python.org/3/library/datetime.html)
 - [Python Documentation – JSON](https://docs.python.org/3/library/json.html)
-- [Python Documentation – OS](https://docs.python.org/3/library/os.html)
