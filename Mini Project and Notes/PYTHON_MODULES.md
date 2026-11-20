@@ -5,7 +5,7 @@
 
 Python modules are files containing reusable code, such as functions, classes, and variables. They help programmers organize their code and use existing features without writing everything from scratch.
 
-This documentation covers four built-in Python modules, their purposes, important functions, and practical code examples.
+This notes covers four built-in Python modules, their purposes, important functions, and practical code examples.
 
 ### Modules Covered
 
