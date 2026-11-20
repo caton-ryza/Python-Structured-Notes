@@ -53,8 +53,6 @@ Oriri/
 └── main.py
 ```
 
-*Note: Update this structure if your actual folders or filenames are different.*
-
 ## How It Works
 
 Oriri uses different Python modules to handle its features:
