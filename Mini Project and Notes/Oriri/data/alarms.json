@@ -1,0 +1,74 @@
+[
+    {
+        "time": "10:40",
+        "label": "hey",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "12:01",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "19:17",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "19:56",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "20:00",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "20:02",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "20:04",
+        "label": "Morning Alarm",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    },
+    {
+        "time": "07:00",
+        "label": "heyy",
+        "note": "",
+        "repeat": [
+            "Fri"
+        ],
+        "enabled": true
+    }
+]

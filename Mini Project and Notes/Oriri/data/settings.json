@@ -1,0 +1,9 @@
+{
+    "time_format": "24-hour",
+    "sound_enabled": true,
+    "notifications_enabled": true,
+    "default_enabled": true,
+    "default_sound": "freesound_community-bedside-clock-alarm-95792.mp3",
+    "volume": 75,
+    "theme": "Meadow"
+}
