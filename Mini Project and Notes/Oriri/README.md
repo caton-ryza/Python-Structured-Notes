@@ -66,7 +66,7 @@ python main.py
 ```
 If you use additional sound-related dependencies, install those separately when supported by your Python version.
 ## Project Purpose
-Oriri was developed as a Python mini project to demonstrate the use of Python modules, file handling, data storage, and graphical user interface development.
-The project also explores how different components can work together to create an organized and interactive desktop application.
+**Oriri was developed as a Python mini project to demonstrate the use of Python modules, file handling, data storage, and graphical user interface development.
+The project also explores how different components can work together to create an organized and interactive desktop application.**
 ---
 **Developed as a Python Mini Project.**
